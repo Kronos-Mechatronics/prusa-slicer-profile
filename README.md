@@ -17,13 +17,20 @@ Slicer can be started with a dedicated config directory. Just clone this reposit
 ### Important settings (must be configured for every machine!)
 
 - SHIFT_MOVING_FRAME
-- Z-offset 
+
+![SHIFT_MOVING_FRAME](https://github.com/user-attachments/assets/8e96b34a-2a53-44d4-afe5-4e31b58d2cdf)
+
+- Z-offset
+
+![z-offset](https://github.com/user-attachments/assets/0a763972-26ac-4b0a-87cb-f32f66c6d84b)
 
 ### Postprocessor
 Brief: replace the path in ```Print settings -> Output options -> Post-processing scripts``` with the correct path for your installation like this: 
 ```
 "C:\Users\<username>\AppData\Local\Programs\Python\Python310\python.exe" D:\path\to\git\repository\prusa-slicer-profile\postprocessor.py;
 ```
+
+![postprocessor_path](https://github.com/user-attachments/assets/ae622882-4050-46d4-8a47-b00be93d17ba)
 
 **Hint**: it is sometimes difficult to find the full python.exe path.
 Run
