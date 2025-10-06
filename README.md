@@ -11,12 +11,7 @@ If the profile repository should be cloned, git must be installed as well ([wind
 ### How to start Slicer
 Slicer can be started with a dedicated config directory. Just clone this repository and start Slicer from a terminal like this:
 ```
-"C:\Program Files\PrusaSlicer-2.9.3-beta3+win64-202112040927\prusa-slicer.exe" --datadir=D:\path\to\git\repository\prusa-slicer-profile
-```
-
-On Linux systems it should look like this:
-```
-PrusaSlicer-2.9.3+linux-x64-202101111322.AppImage --datadir=prusa-slicer-profile
+"C:\Program Files\Prusa3D\PrusaSlicer\prusa-slicer-console.exe" --datadir C:\repository\prusa-slicer-profile
 ```
 
 ### Important settings (must be configured for every machine!)
