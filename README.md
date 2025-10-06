@@ -25,6 +25,13 @@ Brief: replace the path in ```Print settings -> Output options -> Post-processin
 "C:\Users\<username>\AppData\Local\Programs\Python\Python310\python.exe" D:\path\to\git\repository\prusa-slicer-profile\postprocessor.py;
 ```
 
+**Hint**: it is sometimes difficult to find the full python.exe path.
+Run
+```
+python -c "import os, sys; print(os.path.dirname(sys.executable))"
+```
+in a CMD to find the installation path.
+
 Some Kronos specific GCode statements are already included in the ```Printer Settings -> Custom G-code``` fields. 
 An additional python postprocessor converts the resulting ```.gcode``` file, replacing some expressions with the B&R specific syntax. 
 The postprocessor ```postprocessor.py``` must be listed in the Slicer configuration under ```Print settings -> Output options -> Post-processing scripts``` with the full absolute path.
