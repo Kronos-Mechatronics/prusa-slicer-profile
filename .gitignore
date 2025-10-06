@@ -1,0 +1,8 @@
+# slic3r specific
+PrusaSlicer.ini
+
+# directories
+cache
+sla_material
+sla_print
+vendor
