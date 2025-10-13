@@ -13,6 +13,14 @@ Slicer can be started with a dedicated config directory. Just clone this reposit
 ```
 "C:\Program Files\Prusa3D\PrusaSlicer\prusa-slicer-console.exe" --datadir C:\repository\prusa-slicer-profile
 ```
+Second option how the slicer can be started is via a windows shortcut. Create a new shortcut by right click -> new -> shortcut. Copy the command from above to the line and change
+file locations accordingly.
+
+![windows_shortcut](https://github.com/user-attachments/assets/9d8f6480-5836-455b-995e-64b7e42e5ef0)
+
+Copy the command from above to the line and change file locations accordingly.
+
+![windows_shortcut_ile_location](https://github.com/user-attachments/assets/71b9eb55-0e5c-426e-92a3-8bbccf14ca3b)
 
 ### Important settings (must be configured for every machine!)
 
